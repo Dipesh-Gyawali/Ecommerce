@@ -1,3 +1,6 @@
+import {ProductCard} from "../../components/Elements/ProductCard";
+import {FilterBar} from "./components/Filterbar";
+
 export const ProductsList = () => {
   return (
     <main>
@@ -12,9 +15,12 @@ export const ProductsList = () => {
           </div>    
 
           <div className="flex flex-wrap justify-center lg:flex-row">
-            {/* Product Card */}
+            <ProductCard />
           </div>  
         </section>
+
+        <FilterBar />
+
       </main> 
   )
 }
