@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
+import { Rating } from "../components/Elements/Rating";
 
 export const ProductDetail = () => {
   const [product, setProduct] = useState({});
@@ -30,11 +31,7 @@ export const ProductDetail = () => {
               </p>
               <p className="my-3"> 
                 <span>
-                  <i className="text-lg bi bi-star-fill text-yellow-500 mr-1"></i>
-                  <i className="text-lg bi bi-star-fill text-yellow-500 mr-1"></i>
-                  <i className="text-lg bi bi-star-fill text-yellow-500 mr-1"></i>
-                  <i className="text-lg bi bi-star-fill text-yellow-500 mr-1"></i>
-                  <i className="text-lg bi bi-star text-yellow-500 mr-1"></i>
+                    <Rating  rating={product.rating}/>
                 </span>
               </p>
               <p className="my-4 select-none">
