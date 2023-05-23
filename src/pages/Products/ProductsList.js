@@ -2,6 +2,7 @@ import { useState, useEffect} from "react";
 import {ProductCard} from "../../components";
 import {FilterBar} from "./components/Filterbar";
 import { useLocation } from "react-router-dom";
+import { useFilter } from "../../context";
 
 export const ProductsList = () => {
   const [show,setShow] = useState(false);
@@ -9,6 +10,9 @@ export const ProductsList = () => {
 
   const search = useLocation().search;
   const searchTerm = new URLSearchParams(search).get("q");
+
+  // const { productList} = useFilter();
+  // console.log(productList);
 
   
   useEffect(() => {
