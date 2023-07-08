@@ -5,7 +5,9 @@ import './index.css';
 import App from './App';
 import { ScrollToTop } from './components';
 import {FilterProvider} from "./context";
+
 import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

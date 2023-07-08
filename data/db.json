@@ -250,6 +250,12 @@
       "password": "$2a$10$qDKhM07Y02YmoZWhhXfOfuVWeX0gFBdiiM.hKR7SIHntqtFj8Albi",
       "name": "Dipesh",
       "id": 2
+    },
+    {
+      "email": "dipesh@example.combvbv",
+      "password": "$2a$10$5fpBxlbciPXzTSknKZGH8.EP8vP1xSJ6Z51x5/Vt/3v18GoQeDZA.",
+      "name": "Dipesh",
+      "id": 3
     }
   ]
 }
