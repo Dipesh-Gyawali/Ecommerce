@@ -35,6 +35,7 @@ export const CartList = () => {
   //     "best_seller": true
   //   }
   // ]
+  
   return (
     <>
       <section>
