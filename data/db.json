@@ -280,6 +280,12 @@
       "password": "$2a$10$z2gYZa7MqharFJ.P1gKZR.HP864ElxmzCPb4qZ3CEvYiYVrZn1mJS",
       "name": "sita",
       "id": 7
+    },
+    {
+      "email": "n@gmail.com",
+      "password": "$2a$10$bBEAWzF2hCiV4dAyZFcBbehrWU8fiWIlaysPMbnss.mbSnn9WNJ8.",
+      "name": ",mzncz.cn",
+      "id": 8
     }
   ]
 }
