@@ -3,9 +3,11 @@ import { useCart } from "../../../context";
 import { useNavigate } from "react-router-dom";
 
 export const Checkout = ({setCheckout}) => {
+    // eslint-disable-next-line
   const { cartList, total, clearCart } = useCart();
   const [user, setUser] = useState({});
 
+  // eslint-disable-next-line
   const navigate = useNavigate();
 
   const token = JSON.parse(sessionStorage.getItem("token"));
@@ -22,7 +24,7 @@ export const Checkout = ({setCheckout}) => {
     }
 
     getUser();
-  }, []);
+  }, [token,cbid]);
 
 
   async function handleOrderSubmit(event){
@@ -43,8 +45,10 @@ export const Checkout = ({setCheckout}) => {
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
         body: JSON.stringify(order)
     });
+    // eslint-disable-next-line
     const data = await response.json();
-    clearCart();
+    // eslint-disable-next-line
+    // clearCart();
     // navigate("/");
     window.location.href = "https://www.paypal.com/signin";
   }

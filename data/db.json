@@ -241,131 +241,6 @@
     {
       "cartList": [
         {
-          "id": 10004,
-          "name": "The Complete Guide to Backend Development",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 99,
-          "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10004.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 7,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 99,
-      "quantity": 1,
-      "user": {
-        "name": "Dipesh",
-        "email": "dipesh@example.com",
-        "id": 1
-      },
-      "id": 1
-    },
-    {
-      "cartList": [
-        {
-          "id": 10006,
-          "name": "Frontend Fastlane Plan With Projects",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 99,
-          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10006.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 10,
-          "best_seller": false
-        }
-      ],
-      "amount_paid": 99,
-      "quantity": 1,
-      "user": {
-        "name": "Dipesh",
-        "email": "dipesh@example.com",
-        "id": 1
-      },
-      "id": 2
-    },
-    {
-      "cartList": [
-        {
-          "id": 10006,
-          "name": "Frontend Fastlane Plan With Projects",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 99,
-          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10006.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 10,
-          "best_seller": false
-        }
-      ],
-      "amount_paid": 99,
-      "quantity": 1,
-      "user": {
-        "name": "Dipesh",
-        "email": "dipesh@example.com",
-        "id": 1
-      },
-      "id": 3
-    },
-    {
-      "cartList": [
-        {
-          "id": 10004,
-          "name": "The Complete Guide to Backend Development",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 99,
-          "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10004.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 7,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 99,
-      "quantity": 1,
-      "user": {
-        "name": "Dipesh",
-        "email": "dipesh@example.com",
-        "id": 1
-      },
-      "id": 4
-    },
-    {
-      "cartList": [
-        {
-          "id": 10006,
-          "name": "Frontend Fastlane Plan With Projects",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 99,
-          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10006.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 10,
-          "best_seller": false
-        }
-      ],
-      "amount_paid": 99,
-      "quantity": 1,
-      "user": {
-        "name": "Dipesh",
-        "email": "dipesh@example.com",
-        "id": 1
-      },
-      "id": 5
-    },
-    {
-      "cartList": [
-        {
           "id": 10001,
           "name": "Basics To Advanced In React",
           "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
@@ -396,60 +271,18 @@
       "quantity": 2,
       "user": {
         "name": "Dipesh",
-        "email": "dipesh@example.com",
+        "email": "dipeshgyawali365@gmail.com",
         "id": 1
       },
-      "id": 6
+      "id": 1
     }
   ],
   "users": [
     {
-      "email": "dipesh@example.com",
-      "password": "$2a$10$apNaou/1pL7nC.ke7ezRRObNFEOBSK15C.a5yJClWnrsi6mtJQCQG",
+      "email": "dipeshgyawali365@gmail.com",
+      "password": "$2a$10$3R18QBkV95B5KTSirqcfQ.EIn6On0Ea5j/sFjHp011pTSvznVedCa",
       "name": "Dipesh",
       "id": 1
-    },
-    {
-      "email": "dipesh@example.com",
-      "password": "$2a$10$qDKhM07Y02YmoZWhhXfOfuVWeX0gFBdiiM.hKR7SIHntqtFj8Albi",
-      "name": "Dipesh",
-      "id": 2
-    },
-    {
-      "email": "dipesh@example.combvbv",
-      "password": "$2a$10$5fpBxlbciPXzTSknKZGH8.EP8vP1xSJ6Z51x5/Vt/3v18GoQeDZA.",
-      "name": "Dipesh",
-      "id": 3
-    },
-    {
-      "email": "dipesh@gmail.com",
-      "password": "$2a$10$1BN0uDPzhoZGt.jMOoMI6.G5Pe.4c2eKuw47WciKBnKtjJq4Cx.Iq",
-      "name": "Gyawali",
-      "id": 4
-    },
-    {
-      "email": "hello@gmail.com",
-      "password": "$2a$10$FOrq07964FQuFmKG.L5Hqu04ev8fdtw4VymaRUcGCTj2v97CfXjUu",
-      "name": "gyawali",
-      "id": 5
-    },
-    {
-      "email": "ram@gmail.com",
-      "password": "$2a$10$V.Qx/zwS6sq2Ezj3GZFs0eAosfsZ4el9o60bWrus9uiHOYF98UMXy",
-      "name": "ram",
-      "id": 6
-    },
-    {
-      "email": "sita@gmail.com",
-      "password": "$2a$10$z2gYZa7MqharFJ.P1gKZR.HP864ElxmzCPb4qZ3CEvYiYVrZn1mJS",
-      "name": "sita",
-      "id": 7
-    },
-    {
-      "email": "n@gmail.com",
-      "password": "$2a$10$bBEAWzF2hCiV4dAyZFcBbehrWU8fiWIlaysPMbnss.mbSnn9WNJ8.",
-      "name": ",mzncz.cn",
-      "id": 8
     }
   ]
 }
