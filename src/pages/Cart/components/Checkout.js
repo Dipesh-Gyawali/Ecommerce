@@ -3,11 +3,9 @@ import { useCart } from "../../../context";
 import { useNavigate } from "react-router-dom";
 
 export const Checkout = ({setCheckout}) => {
-    // eslint-disable-next-line
   const { cartList, total, clearCart } = useCart();
   const [user, setUser] = useState({});
 
-  // eslint-disable-next-line
   const navigate = useNavigate();
 
   const token = JSON.parse(sessionStorage.getItem("token"));
@@ -30,28 +28,30 @@ export const Checkout = ({setCheckout}) => {
   async function handleOrderSubmit(event){
     event.preventDefault();
 
-    const order = {
-        cartList: cartList,
-        amount_paid: total,
-        quantity: cartList.length,
-        user: {
-            name: user.name,
-            email: user.email,
-            id: user.id
+    try {
+        const order = {
+            cartList: cartList,
+            amount_paid: total,
+            quantity: cartList.length,
+            user: {
+                name: user.name,
+                email: user.email,
+                id: user.id
+            }
         }
-    }
-    const response = await fetch("http://localhost:8000/660/orders", {
+        const response = await fetch("http://localhost:8000/660/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
         body: JSON.stringify(order)
-    });
-    // eslint-disable-next-line
-    const data = await response.json();
-    // eslint-disable-next-line
-    clearCart();
-    navigate("/");
-    // window.location.href = "https://www.paypal.com/signin";
+        });
+        const data = await response.json();
+        clearCart();
+        navigate("/order-summary", { state: {data: data, status: true} });
+    } catch(error) {
+        navigate("/order-summary", { state: {status: false} });
+    }
   }
+    
 
   return (
     <section>
