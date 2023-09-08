@@ -48,9 +48,9 @@ export const Checkout = ({setCheckout}) => {
     // eslint-disable-next-line
     const data = await response.json();
     // eslint-disable-next-line
-    // clearCart();
-    // navigate("/");
-    window.location.href = "https://www.paypal.com/signin";
+    clearCart();
+    navigate("/");
+    // window.location.href = "https://www.paypal.com/signin";
   }
 
   return (
