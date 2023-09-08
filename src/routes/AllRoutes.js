@@ -5,6 +5,7 @@ import { PageNotFound} from "../pages";
 import { CartPage } from "../pages";
 import { Login,Register } from "../pages";
 import { ProtectedRoute } from "./ProtectedRoute";
+import {OrderPage} from "../pages/Order/OrderPage";
 
 export const AllRoutes = () => {
   return (
@@ -17,6 +18,8 @@ export const AllRoutes = () => {
         <Route path="*" element={<PageNotFound />} />
 
         <Route path="cart" element={<ProtectedRoute><CartPage /></ProtectedRoute>} />
+        <Route path="order-summary" element={<ProtectedRoute><OrderPage /></ProtectedRoute>} />
+
 
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
