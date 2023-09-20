@@ -11,7 +11,6 @@ export const AllRoutes = () => {
         <Route path="products/:id" element={<ProductDetail />} />
 
 
-        <Route path="*" element={<PageNotFound />} />
 
 
         <Route path="login" element={<Login />} />
@@ -22,6 +21,7 @@ export const AllRoutes = () => {
         <Route path="order-summary" element={<ProtectedRoute><OrderPage /></ProtectedRoute>} />
         <Route path="dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
 
+        <Route path="*" element={<PageNotFound />} />
 
     </Routes>
     </>
