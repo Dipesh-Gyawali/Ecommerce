@@ -3,6 +3,7 @@ import {ProductCard} from "../../components";
 import {FilterBar} from "./components/Filterbar";
 import { useLocation } from "react-router-dom";
 import { useFilter } from "../../context";
+import { useTitle } from "../../hooks/useTitle";
 
 export const ProductsList = () => {
   const { products, initialProductList} = useFilter();
@@ -14,6 +15,7 @@ export const ProductsList = () => {
   const search = useLocation().search;
   const searchTerm = new URLSearchParams(search).get("q");
 
+  useTitle("Explore eBooks Collection");
 
   
   useEffect(() => {
