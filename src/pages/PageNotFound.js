@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import PageNotFoundImage from "../assets/images/pagenotfound.png";
-import { useTitle } from "../../hooks/useTitle";
+import { useTitle } from "../hooks/useTitle";
 
 export const PageNotFound = () => {
     useTitle("Page Not Found");

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import { Rating } from "../components/Elements/Rating";
 import { useCart } from "../context/";
-import { useTitle } from "../../hooks/useTitle";
+import { useTitle } from "../hooks/useTitle";
 
 
 export const ProductDetail = () => {
